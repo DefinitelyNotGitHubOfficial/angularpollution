@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  padding: 0;
+  margin: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #111;
+}
+.o-container {
+  width: clamp(400px, 100%, 1200px);
+  margin: auto;
+}
+.o-container__body {
+  width: clamp(calc(400px - 20px), calc(100% - 40px), calc(1440px - 40px));
+  margin: auto;
+}
+.u-light-gray {
+  background-color: #f0f0f0;
+}

@@ -1,41 +1,56 @@
 {
-  "hash": "11f5e793",
-  "browserHash": "fb4e2799",
+  "hash": "ecc738bb",
+  "browserHash": "eabf4921",
   "optimized": {
     "@angular/common": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-      "fileHash": "79bf5e28",
+      "fileHash": "77a4d86c",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "569609af",
+      "fileHash": "6819f789",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "b639a9ec",
+      "fileHash": "255f5e56",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "3879c960",
+      "fileHash": "78fe08ee",
+      "needsInterop": false
+    },
+    "@fortawesome/angular-fontawesome": {
+      "src": "../../../../../node_modules/@fortawesome/angular-fontawesome/fesm2022/angular-fontawesome.mjs",
+      "file": "@fortawesome_angular-fontawesome.js",
+      "fileHash": "a222a342",
+      "needsInterop": false
+    },
+    "@fortawesome/free-solid-svg-icons": {
+      "src": "../../../../../node_modules/@fortawesome/free-solid-svg-icons/index.mjs",
+      "file": "@fortawesome_free-solid-svg-icons.js",
+      "fileHash": "d143d9e6",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-YALXXKLY": {
-      "file": "chunk-YALXXKLY.js"
+    "chunk-WZ64ZBAC": {
+      "file": "chunk-WZ64ZBAC.js"
     },
-    "chunk-CHMPECP7": {
-      "file": "chunk-CHMPECP7.js"
+    "chunk-EWHP4KV6": {
+      "file": "chunk-EWHP4KV6.js"
     },
-    "chunk-P5ZCAOD5": {
-      "file": "chunk-P5ZCAOD5.js"
+    "chunk-6JW3YBQH": {
+      "file": "chunk-6JW3YBQH.js"
+    },
+    "chunk-HSNDBVJ3": {
+      "file": "chunk-HSNDBVJ3.js"
     }
   }
 }
