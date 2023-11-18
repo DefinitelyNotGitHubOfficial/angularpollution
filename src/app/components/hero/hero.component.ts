@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-pre-header',
+  selector: 'app-hero',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './pre-header.component.html',
-  styleUrl: './pre-header.component.scss'
+  templateUrl: './hero.component.html',
+  styleUrl: './hero.component.scss'
 })
-export class PreHeaderComponent {
+export class HeroComponent {
 
 }

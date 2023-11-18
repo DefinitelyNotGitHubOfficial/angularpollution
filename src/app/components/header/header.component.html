@@ -23,17 +23,18 @@
     </div><!-- gray -->
     <div class="o-container__body">
         <div class="o-header__bottom">
-            <div class="o-header__buttom_logo">
-                <img src="/assets/images/mnpol.svg" alt="Logo">
+            <div class="o-header__bottom_logo">
+                <img src="/assets/images/mnpol.svg" alt="logo">
             </div>
-            <nav>
+            <nav>   
+                
                 <ul>
-                    <li>Lorem ipsum dolor sit amet consectetur</li>
-                    <li>In eget vulputate ex</li>
-                    <li>Morbi pellentesque</li>
-                    <li>Aliquam lorem risus</li>
-                    <li>Pellentesque habitant morbi</li>
+                    <li *ngFor="let item of nav" (mouseover)="onMouseoverNav(item)" class="mainNav">{{item.text}}</li>
                 </ul>
+                <div class="o-header__bottom__expanded-nav__container" *ngIf="showNav" (mouseleave)="onMouseoutNav()">
+                    <!-- *ngIf="showNav" -->
+                    <div class="o-header__bottom__expanded-nav"></div>
+                </div>
             </nav>
         </div>
     </div>
