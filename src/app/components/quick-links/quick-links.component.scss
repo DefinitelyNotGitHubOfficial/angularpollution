@@ -1,0 +1,34 @@
+.o-quick-links__container {
+  background-color: #f0f0f0;
+  width: calc(100% - 10%);
+  padding: 2.5rem 5%;
+}
+.o-quick-links__link {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #002d51;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.1rem;
+  width: 180px;
+  text-align: center;
+  margin: 15px;
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover {
+    background-color: #007fa4;
+  }
+}
+.o-quick-links__links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+  margin: auto;
+  max-width: 1200px;
+}
+h2 {
+  margin: auto;
+  max-width: 1200px;
+}

@@ -1,0 +1,63 @@
+footer {
+  background: #003865;
+  border-top: 12px solid #78be21;
+}
+.o-footer__container {
+  color: #fff;
+  display: grid;
+  gap: 100px;
+  grid-template-columns: 55% calc(40% - 40px);
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+  padding: 100px;
+}
+
+.o-footer__recap {
+  img {
+    height: 38px;
+    padding-bottom: 30px;
+    width: 387px;
+  }
+}
+
+.o-footer__recap__links {
+  display: flex;
+  gap: 10px;
+}
+.o-footer__recap__links__column {
+  width: 33%;
+  font-size: 1.2rem;
+  a {
+    display: inline-block;
+    padding: 10px 0;
+  }
+}
+p {
+  padding-top: 20px;
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 1.4rem;
+  max-width: 550px;
+}
+.o-footer__contact {
+  max-width: 300px;
+  img {
+    //for fpo only
+    width: 300px;
+    padding-bottom: 50px;
+  }
+  li {
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 10px 0;
+  }
+}
+h3 {
+  font-size: 1.4rem;
+  padding-bottom: 20px;
+}
+.u-underline {
+  text-decoration: underline;
+}

@@ -1,0 +1,54 @@
+.o-hero__container {
+  align-items: center;
+  background-color: lightgray;
+  background-image: url("/assets/images/st-croix-river-mn-aerial.jpg");
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  margin: auto;
+  min-height: 600px;
+  width: calc(100% - 50px);
+}
+.o-hero__message {
+  background-color: rgba(0, 56, 101, 0.81);
+  padding: 70px;
+  width: calc(50% - 140px);
+  h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 20px;
+  }
+  p {
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+  }
+}
+input {
+  appearance: none;
+  background-clip: padding-box;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0;
+  color: #343a40;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  -moz-appearance: none;
+  padding: 0.5rem 1rem;
+  -webkit-background-clip: padding-box;
+  -webkit-appearance: none;
+  width: calc(90% - 20px);
+}
+button {
+  background-clip: padding-box;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  color: #003865;
+  cursor: pointer;
+  font-size: 1.4rem;
+  height: 38px;
+  margin: 0 0 0 -40px;
+  position: relative;
+  width: 38px;
+}

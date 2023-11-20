@@ -1,0 +1,11 @@
+<div class="story-bumb-section__container">
+    <h2>News and Stories</h2>
+    <div class="o-stories-container">
+        <div *ngFor="let story of stories" class="o-story">
+            <img src="{{story.image}}" alt="{{story.title}}"/>
+            <a href="{{story.link}}">{{story.title}}</a>
+        </div>
+    </div>
+    <div class="o-stories__more">More news and stories</div>
+</div>
+
